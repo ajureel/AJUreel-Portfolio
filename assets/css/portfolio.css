@@ -12,38 +12,37 @@
     --main-bg-color: #673b56;
     --2nd-bg-color: #fc7d52;
     --main-border-color: #fc7d52;;
-    --2nd-border-color: #fff073;
-    --blueish: #2a607c;
-    --whiteish: #ffffff;
-    --blue2: #0072bb;
-    --blue3: #2589bd; 
+    --2nd-border-color: #fff073; 
   }
 
+/* Set the main background color  */
 body {
     background-color: var(--main-bg-color);
 }
 
+/* Set element attributes */
 h2 {
     letter-spacing: 2px;
     font-family: 'Comic Sans MT','Brush Script MT',  Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a {
+    color: #fff073;
+    text-decoration: none;
+}
+
 p {
+    font-size: 16px;
     color:lightgoldenrodyellow;
 }
-/**** Header styles ****/
+
+/**** Header Section ****/
 .header {
     padding-top: 4px;
     padding-bottom: 9px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--main-bg-color);
     color: var(--title-text-color);
-}
-
-.header div {
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
 }
 
 .header h1 {
@@ -55,40 +54,19 @@ p {
     font-family: 'Comic Sans MT','Brush Script MT',  Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.header div ul {
-    margin-top: 10px;
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-right: 6px;
-    padding-left: 6px;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-    border-style: solid;
-    border-color: var(--main-border-color);
-}
-
-.my-links div {
+/* my-links contains the menu and footer/contact me links which is an unordered list */
+.my-links {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: orange;
+    font-size: 20px;
 }
 
-.my-links div ul {
+.my-links ul {
     margin-top: 10px;
     list-style-type: none;
 }
 
-.my-links div ul li {
+.my-links ul li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 3px;
@@ -100,18 +78,7 @@ p {
     border-left: 0px;
     border-style: solid;
     border-color: var(--main-border-color);
-}
-
-
-/*** Anchors and Paragraphs ****/
-a {
-    color: #fff073;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+} 
 
 /*** HERO!!!!! ***/
 .hero {
@@ -145,19 +112,19 @@ p {
     border-radius: 50%;
 }
 
+/* Main body is below the Hero section */
 .main-body{
     display: flex;
     flex-wrap: wrap;
 }
 
+/* each section of content is a row that has a title and a content container */
  .page-row{
     display: flex;
     margin-bottom: 10px;
  } 
 
 .section-title {
-    
-    /* flex-grow: 0; */
     color: var(--title-text-color);
     width:10%;
     border-right: var(--main-border-color);
@@ -176,21 +143,14 @@ p {
     display: flex;
     flex-wrap: wrap;
     padding-left: 10px;
-    /* border-width: 3px;
-    border-style: solid; */
 }
 
+/* Work Examples are flexed within the content-container */
 .primary-example {    
-    /* display: block;  */
-    /* display: inline-flexbox; */
-    /* border-style: solid;
-    border-color: orange;
-    border-width: 1px; */
     width: 100%;
 }
 
 .example-title-box {  
-    /* float: left; */
     display: inline-flexbox;
     background-color: var(--2nd-bg-color);
     width: 200px;
@@ -199,87 +159,22 @@ p {
     padding-left: 10px;
 }
 
+/* more-work enables the additional examples to wrap */
 .more-work {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;  
-    /* border-width: 1px;
-    border-style: dashed;
-    border-color: white; */
-    
+    flex-wrap: wrap;      
 }
 
 .additional-example {    
     width: 50%; 
-    border-style: solid;
-    border-width: 1px;
-    border-color: orange;
-}
-/* 
-
-/**** Classes for floating objects left or right; used to create an alternating flow****/
-/* .float-left {
-    float: left;
-    margin-right: 25px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-} */
-
-/***main content section***/
-/* .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.my-pic:hover {
+    background-color: var(--2nd-border-color);
+    opacity:0.5;
+    border-radius:30px;
 }
-
-.content div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--blue2);
-    color: var(--whiteish);
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
- */
-/***benefits section***/
-/* .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--blue3);
-}
-
-.benefits div {
-    margin-bottom: 32px;
-    color: var(--whiteish);
-}
-
-.benefits div h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits div img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 
 /***Footer Styles***/
 .footer {
