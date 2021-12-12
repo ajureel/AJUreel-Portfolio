@@ -163,11 +163,18 @@ p {
 .more-work {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;      
+    flex-wrap: wrap;  
+    /* align-content: center; */
+    /* align-items: center;     */
 }
 
 .additional-example {    
-    width: 50%; 
+    /* width: 50%;  */
+    
+}
+
+.additional-example img {    
+    width: 400px;
 }
 
 .my-pic:hover {
@@ -187,3 +194,24 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .page-row, .more-work {   
+      flex-direction: column;
+    }
+
+    .header, .my-links ul li {
+        flex-direction: column;
+        display: flex; 
+    }
+
+    .section-title {
+        width: 103px;
+    }   
+    
+    .additional-example img {    
+        width: 300px;
+    }
+    
+  }
