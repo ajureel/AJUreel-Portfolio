@@ -47,4 +47,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Repository contains quality readme with description, screenshot, link to deployed application.
 
 # Result
-![AJs Portfolio] (\assets\images\AJsPortfolio.PNG)
+![AJsPortfolio] (assets/images/AJsPortfolio.PNG)
