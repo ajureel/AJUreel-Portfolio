@@ -27,7 +27,7 @@ THEN I am taken to that deployed application
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Mockup
-![mockup](\assets\images\02-advanced-css-homework-demo.gif)
+![mockup](assets\images\02-advanced-css-homework-demo.gif)
 
 ## Technical Acceptance Criteria: 40%
 - Satisfies all of the preceding acceptance criteria.
@@ -47,4 +47,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Repository contains quality readme with description, screenshot, link to deployed application.
 
 # Result
-![AJsPortfolio] (assets/images/AJsPortfolio.PNG)
+![AJsPortfolio](.\assets\images\AJsPortfolio.PNG)
