@@ -1,5 +1,6 @@
 # AJUreel-Portfolio
 My portfolio assignment for bootcamp
+Link to my portfolio: [https://ajureel.github.io/AJUreel-Portfolio/](https://ajureel.github.io/AJUreel-Portfolio/)
 
 ## User Story
 **AS AN** employer
@@ -47,4 +48,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Repository contains quality readme with description, screenshot, link to deployed application.
 
 # Result
+Link to my portfolio: [https://ajureel.github.io/AJUreel-Portfolio/](https://ajureel.github.io/AJUreel-Portfolio/)
 ![AJsPortfolio](./assets/images/AJsPortfolio.PNG)
