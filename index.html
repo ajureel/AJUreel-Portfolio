@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- Header for name and links -->
     <header class="header">
         <h1>AJ Ureel</h1>
         <div class="my-links">
@@ -22,6 +23,7 @@
         </div>
     </header>
 
+    <!-- HERO with an inspiring background, profile pic and personal tagline -->
     <section class="hero" id="hero">
         <div id="sub-title">
             <h2>Naturally Relentless</h2>
@@ -31,7 +33,11 @@
         </div>
     </section>
 
+    <!-- The fun stuff! -->
+    <!-- The main body is basically broken into rows with two columns (section title and section content) -->
+    <!-- Section content for work gets subdivided further to support nested flexing so that there is a primary example and additional work examples-->
     <div class="main-body">
+        <!-- About me -->
         <section id="about-me" class="page-row">
             <div class="section-title">
                 <h2>About Me</h2>
@@ -42,11 +48,14 @@
             </div>
         </section>
 
+        <!-- Work examples -->
         <section id="work" class="page-row">
             <div class="section-title">
                 <h2>Work</h2>
             </div>
+            <!-- break this into two divs one for the primary example and one for additional examples -->
             <div class="content-container">
+                <!-- Primary work example -->
                 <div class="primary-example">
                    <a href="https://ureelfamily.com/xmas/2020Snow.html" target="_blank"><img alt="snowy holiday card" src="assets/images/winter-landscape.jpg" width="100%" class="my-pic"></a>
                     <div class="example-title-box">
@@ -54,6 +63,7 @@
                         <p>HTML, JavaScript, CSS</p>
                     </div>
                 </div>
+                <!-- Dif for additional work examples.  These need to flex under the primary example -->
                 <div class="more-work">
                     <div class="additional-example">
                         <a href="https://ajureel.github.io/AJs_Horiseon/Develop/index.html" target="_blank"><img alt="image of a professional services website" src="assets/images/Horiseon.png" width="100%" class="my-pic"></a>
@@ -88,11 +98,13 @@
         </section>
     </div>
 
+    <!-- wrap this puppy up with a footer that matches our content classes/row formatting -->
     <footer id="contact-me" class="page-row">
         <div class="section-title">
             <h2>Contact Me</h2>
         </div>
         <div class="content-container">
+            <!-- content links -->
             <div class="my-links">
                 <ul>
                     <li><a>555-555-1212</a></li>
