@@ -27,7 +27,7 @@ THEN I am taken to that deployed application
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Mockup
-![mockup](assets\images\02-advanced-css-homework-demo.gif)
+![mockup](\assets\images\02-advanced-css-homework-demo.gif)
 
 ## Technical Acceptance Criteria: 40%
 - Satisfies all of the preceding acceptance criteria.
@@ -45,3 +45,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 - Repository contains multiple descriptive commit messages.
 - Repository contains quality readme with description, screenshot, link to deployed application.
+
+# Result
+![AJs Portfolio] (\assets\images\AJsPortfolio.PNG)
